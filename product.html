@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Магазин электроники</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.php">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./image/интернет-планшет.png" alt="">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Макбук</h1>
+                <p>Описание</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nisi, perferendis a dignissimos vero, aliquam saepe cum ratione incidunt quibusdam adipisci consequatur possimus, repellat sunt. Maiores, repudiandae qui. Aliquam, labore?</p>
+                <div class="price">
+                    2067 рублей
+                </div>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti ea minus labore dolorum voluptate atque nobis nulla, praesentium nesciunt. Quasi iusto sed nihil quo tenetur quas ipsum nostrum fugit.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum aspernatur a ea mollitia maiores libero, sit qui obcaecati doloribus necessitatibus, ullam, omnis hic minus facere quo quidem aperiam autem veniam.</li>
+                </ul>
+                
+                <button id="buyBtn">Купить</button>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <p>Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./page1.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</body>
+
+</html>
